@@ -11,7 +11,7 @@ con.connect( function(){
 		throw(err);
 	else
 		console.log("Whoa. You did it.");
-}
+});
 
 
 con.end(function(err){
